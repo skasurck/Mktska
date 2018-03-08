@@ -35,10 +35,12 @@ header {
 .logo {
     position: fixed;
     float: left;
-    margin: 16px 36px;
+    margin-left: 36px;
+    margin-top: 6px;
     color: #fff;
     font-weight: bold;
     font-size: 26px;
+
 
 }
 
@@ -223,12 +225,15 @@ nav.white ul li a {
     text-align: center;
     margin-top: 20px;
 }
-
+.logo-peke{
+    width: 50px;
+    height: 50px;
+}
 @media(max-width:580px) {
     .logo {
         position: fixed;
         top: 0;
-        margin-top: 16px;
+        padding-top: -15px;
     }
     nav ul {
         max-height: 0px;
@@ -241,7 +246,7 @@ nav.white ul li a {
         font-weight: bold;
     }
     nav.black ul {
-        background: #fff;
+        background: #000;
     }
 
     .showing {
