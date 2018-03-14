@@ -11,43 +11,7 @@
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="css/Fuentes.css" type="text/css">
     <link rel="stylesheet" href="css/estilos1.css" type="text/css">
-    <script>
 
-    /**
-     * Array con las imagenes y enlaces que se iran mostrando en la web
-     */
-    var imagenes=new Array(
-        ['img/header2.jpg'],
-        ['img/header3.jpg'],
-        ['img/headess.jpg'],
-        ['img/marketing1.jpg']
-    );
-
-    /**
-     * Funcion para cambiar la imagen
-     */
-    function rotarImagenes()
-    {
-        // obtenemos un numero aleatorio entre 0 y la cantidad de imagenes que hay
-        var index=Math.floor((Math.random()*imagenes.length));
-
-        // cambiamos la imagen
-       var objeto= document.getElementById("img-header");
-       objeto.style.background="url("+imagenes[index]+");";
-    }
-
-    /**
-     * Función que se ejecuta una vez cargada la página
-     */
-    function cargarhead()
-    {
-        // Cargamos una imagen aleatoria
-        rotarImagenes();
-
-        // Indicamos que cada 5 segundos cambie la imagen
-        setInterval(rotarImagenes,1000);
-    }
-</script>
 
     <title>Mktska</title>
 
@@ -104,13 +68,23 @@
                     </div>
 
                 </div>
-
-             <div class="contenedor-servicios">
+                             <div class="contenedor-servicios">
                 <div class="row cube-s">
-                    <div class="col-12">
-                        <div class="cube"><a >marketing</a><br/><i class="fa fa-laptop icon-s"></i></div>
-                       <div class="cube"><a >marketing</a><br/><i class="fa fa-users icon-s"></i></div>
-                       <div class="cube"><a >marketing</a><br/><i class="fa fa-object-group icon-s"></i></div>
+                     <div class="container-fluid">
+                        <div class="col-12 col-md-3 cube"><i class="fa fa-laptop icon-s"></i><br/><a >Adwords</a></div>
+                       <div class="col-12 col-md-3 cube"><i class="fa fa-users icon-s"></i><br/><a >Creacion de Contenido</a></div>
+                       <div class="col-12 col-md-3 cube"><i class="fa fa-object-group icon-s"></i><br/><a >CC Corporativa</a></div>
+
+                    </div>
+                </div>
+            </div>
+
+                             <div class="contenedor-servicios">
+                <div class="row cube-s">
+                     <div class="container-fluid">
+                        <div class="col-12 col-md-3 cube"><i class="fa fa-laptop icon-s"></i><br/><a >Adwords</a></div>
+                       <div class="col-12 col-md-3 cube"><i class="fa fa-users icon-s"></i><br/><a >Creacion de Contenido</a></div>
+                       <div class="col-12 col-md-3 cube"><i class="fa fa-object-group icon-s"></i><br/><a >CC Corporativa</a></div>
 
                     </div>
                 </div>

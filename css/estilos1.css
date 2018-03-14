@@ -84,7 +84,9 @@ nav.white ul li a {
     font-size: 20px;
 
 }
-
+header{
+    width: 100%;
+}
 .menu-icon {
     width: 100%;
     background: #000;
@@ -231,12 +233,13 @@ nav.white ul li a {
 }
 .cube{
     margin: 40px;
+    height: 200px;
     display: inline-block;
     border: solid 2px #000;
     background: rgba(230,98,210,1);
     border-radius: 12px;
     width: 20%;
-    padding: 30px;
+    padding: 20px;
 }
 .text-cube{
     padding-bottom: 10px;
@@ -306,5 +309,8 @@ nav.white ul li a {
     .btn{
         margin-top: 30px;
         margin-left: 30px;
+    }
+    .cube{
+        width: 80%;
     }
 }
