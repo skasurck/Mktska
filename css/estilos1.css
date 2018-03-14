@@ -87,6 +87,9 @@ nav.white ul li a {
 header{
     width: 100%;
 }
+.contenedor-servicios{
+    background: url(../img/marketing-offline.jpg) no-repeat 50% 50%;
+}
 .menu-icon {
     width: 100%;
     background: #000;
