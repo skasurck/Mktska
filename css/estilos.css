@@ -1,14 +1,21 @@
 body{
     padding: 0;
-    margin: 0;
+    margin: 0; 
     
 }
-
+.content-tel {
+	background: ;
+}
 .tlefonos {
-	width: 600px;
+	width: 100%;
+    height: 40px;
+    background: #007c91;
     
 }
 .tlefonos h5{
 	text-align: right;
     margin-right: 2%;
+}
+.navmkt{
+    background: #00acc1;
 }
