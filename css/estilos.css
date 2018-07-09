@@ -10,8 +10,8 @@ body{
 }
 .tlefonos {
 	width: 100%;
-    height:40px;
-    background: rgb(67,116,169);
+    height:40px;    
+    background: rgb(21,41,62);
 
    
     
@@ -27,10 +27,21 @@ body{
 }
 .navmkt{
     font-family: 'Source Sans Pro', sans-serif;
-    background: rgb(21,41,62);
+    background: rgb(255,255,255);
     font-size: 18px;
-    text-decoration-color: gray;    
+    border: 1px solid;
+    border-bottom-color: rgb(255,123,95);
+         
 }
-.navmkt li:hover{
-    opacity: 0.5;      
+   
+}
+.navmkt li a{
+    color:black;
+    opacity: 0.9;      
+}
+
+.navmkt li a:hover{
+    color:rgb(255,123,95);
+    opacity: 0.9; 
+    font-weight: bold;
 }
