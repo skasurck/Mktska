@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
 body{
     margin: 0;
     padding: 0;
@@ -8,15 +10,27 @@ body{
 }
 .tlefonos {
 	width: 100%;
-    height: 40px;
-    background: #007c91;
+    height:40px;
+    background: rgb(67,116,169);
+
+   
     
 }
-.tlefonos h5{
-	text-align: right;
-    margin-right: 2%;
+.tlefonos li{
+	color: aliceblue; 
+    font-size: 15px;
+   
+}
+.tlefonos li:hover{
+	background: #01ccc2;
+    
 }
 .navmkt{
-    background: #00acc1;
-    justify-content: flex-end;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: rgb(21,41,62);
+    font-size: 18px;
+    text-decoration-color: gray;    
+}
+.navmkt li:hover{
+    opacity: 0.5;      
 }
