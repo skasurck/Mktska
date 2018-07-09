@@ -1,6 +1,6 @@
 body{
+    margin: 0;
     padding: 0;
-    margin: 0; 
     
 }
 .content-tel {
@@ -18,4 +18,5 @@ body{
 }
 .navmkt{
     background: #00acc1;
+    justify-content: flex-end;
 }
