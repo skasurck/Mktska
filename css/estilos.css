@@ -1,47 +1,55 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
-body{
+body {
     margin: 0;
     padding: 0;
-    
 }
-.content-tel {
-	background: ;
-}
+
 .tlefonos {
-	width: 100%;
-    height:40px;    
-    background: rgb(21,41,62);
+    width: 100%;
+    height: 40px;
+    background: #4484CE;
+}
 
-   
-    
-}
-.tlefonos li{
-	color: aliceblue; 
-    font-size: 15px;
-   
-}
-.tlefonos li:hover{
-	background: #01ccc2;
-    
-}
-.navmkt{
+.navmkt {
     font-family: 'Source Sans Pro', sans-serif;
-    background: rgb(255,255,255);
+    background: rgb(255, 255, 255);
     font-size: 18px;
-    border: 1px solid;
-    border-bottom-color: rgb(255,123,95);
-         
-}
-   
-}
-.navmkt li a{
-    color:black;
-    opacity: 0.9;      
+    border: 2px solid;
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 0px;
+    border-bottom-color: rgb(255, 123, 95);
 }
 
-.navmkt li a:hover{
-    color:rgb(255,123,95);
-    opacity: 0.9; 
+.navmkt li a {
+    color: black;
+    opacity: 0.9;
+    font-weight: 200;
+}
+
+.navmkt li a:hover {
+    transition: .4s linear;
     font-weight: bold;
+    color: rgb(255, 123, 95);
+}
+
+
+.numeros {
+    display: flex;
+    justify-content: flex-end;
+
+}
+.items-tel {
+	list-style-type: none;
+}
+.items-tel a {    
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+}
+.navbar-toggler-icon {
+	
 }
