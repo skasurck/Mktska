@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Anton');
 
 body {
     margin: 0;
     padding: 0;
 }
-
 .tlefonos {
     width: 100%;
     height: 40px;
     background: #4484CE;
 }
-
 .navmkt {
     font-family: 'Source Sans Pro', sans-serif;
     background: rgb(255, 255, 255);
@@ -21,20 +21,16 @@ body {
     border-top: 0px;
     border-bottom-color: rgb(255, 123, 95);
 }
-
 .navmkt li a {
     color: black;
     opacity: 0.9;
     font-weight: 200;
 }
-
 .navmkt li a:hover {
     transition: .4s linear;
     font-weight: bold;
     color: rgb(255, 123, 95);
 }
-
-
 .numeros {
     display: flex;
     justify-content: flex-end;
@@ -88,4 +84,139 @@ body {
 }
 .imagen-header {
 	
+}
+.parrallax{
+    background: #fff fixed no-repeat 50% 50%;
+    background-size: cover;
+}
+#seccion1{
+    background-image: url(../img/servicios.jpg)
+}
+#seccion2{
+    background-image: url(../img/paquetes.jpg)
+}
+#seccion3{
+    background-image: url(../img/exito.jpg)
+}
+#seccion4{
+    background-image: url(../img/contacto.jpg)
+}
+.img-servicios{
+height: 60vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.img-servicios h1{
+color: #ffff;
+text-shadow: 4px 4px 15px rgba(0, 0, 0, 1);
+text-align: center;
+font-size: 70px; 
+font-family: 'Anton', sans-serif;
+
+}
+.img-servicios2 img{
+	width: 100%;
+    min-height: 250px;
+}
+.text-servicios {
+	font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+}
+.card img{
+    width: 100%;
+   
+}
+#imagen-paquete2 {
+	min-height:210px;
+}
+#imagen-paquete3{
+    min-height:210px;
+}
+.precio{
+    margin-top: 15%;
+  
+    padding: 3%;
+    background:#4484CE;
+    border-radius: 15px;
+}
+.card{
+    border: solid 2px #4484CE;
+}
+.porta {
+    height: 280px;
+}
+.porta  img{
+    min-height: 180px;
+}
+.contacto{
+    border: solid 2px #4484CE;
+    
+}
+@media screen and (max-width: 575px) {
+  .paquetes{
+    margin-left: 1%;
+     
+}
+    #ska2 {
+	display: none;
+}
+    .logo-header{
+        width: 90%;
+    }
+}
+.footer{
+	padding: 0;
+	margin: 0;
+	background: rgba(42,40,40,1.00);
+    bottom:0;
+    left:0;
+    width:100%;
+    height:auto;
+    text-align:center;
+	/*position: sticky;*/
+	
+}
+.skafooter ul li{
+	list-style: none;
+	width: 20%;
+	box-sizing: border-box;
+}
+.skafooter ul li a{
+	color: #fff;
+	font-size: 30px;
+	margin: 10px;
+	display: inline-block;
+}
+.skafooter ul{
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;	
+	text-align: center;
+	width: 100%;
+	display: flex;
+	}
+.skafooter p{
+	color: #fff;
+	font-size: 15px;
+	margin: 10px;
+	display: inline-block;
+	text-align: center;
+}
+.skafooter{
+	margin: 0;
+	padding: 0;
+}
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+textarea{
+    width: 100%;
+    min-height: 200px;
+}
+.headers {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
 }
