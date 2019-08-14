@@ -1,0 +1,234 @@
+/*
+Theme Name: Mktska
+Author: Irving Rangel Paredes
+Author URI: https://www.mktska.com.mx
+Description: Pagina de Marketing Digital enfocada al a pequeñas y medianas empresas
+Version: 0
+License: copyrigh
+Text Domain: Marketing Digial
+*/
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.tlefonos {
+    width: 100%;
+    height: 40px;
+    background: #4484CE;
+}
+.navmkt {
+    font-family: 'Source Sans Pro', sans-serif;
+    background: rgb(255, 255, 255);
+    font-size: 18px;
+    border: 2px solid;
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 0px;
+    border-bottom-color: rgb(255, 123, 95);
+}
+.navmkt li a {
+    color: black;
+    opacity: 0.9;
+    font-weight: 200;
+}
+.navmkt li a:hover {
+    transition: .4s linear;
+    font-weight: bold;
+    color: rgb(255, 123, 95);
+}
+.numeros {
+    display: flex;
+    justify-content: flex-end;
+
+}
+.items-tel {
+	list-style-type: none;
+}
+.items-tel a {    
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+}
+.navbar-toggler-icon {
+	
+}
+.imagen-header {
+	    display: -ms-flexbox;
+    -ms-flex-pack: center;
+    -ms-flex-align: center;
+    padding: 8em 0 6em 0;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    background-image: url(../img/header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: 0;
+    min-height: 100vh;
+    height: 100vh !important;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    
+}
+.logo-header {
+	width: 40%;
+    margin-top: -20%;
+}
+.imagen-header {
+	
+}
+.parrallax{
+    background: #fff fixed no-repeat 50% 50%;
+    background-size: cover;
+}
+#seccion1{
+    background-image: url(../img/servicios.jpg)
+}
+#seccion2{
+    background-image: url(../img/paquetes.jpg)
+}
+#seccion3{
+    background-image: url(../img/exito.jpg)
+}
+#seccion4{
+    background-image: url(../img/contacto.jpg)
+}
+.img-servicios{
+height: 60vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.img-servicios h1{
+color: #ffff;
+text-shadow: 4px 4px 15px rgba(0, 0, 0, 1);
+text-align: center;
+font-size: 70px; 
+font-family: 'Anton', sans-serif;
+
+}
+.img-servicios2 img{
+	width: 100%;
+    min-height: 250px;
+}
+.text-servicios {
+	font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+}
+.card img{
+    width: 100%;
+   
+}
+#imagen-paquete2 {
+	min-height:210px;
+}
+#imagen-paquete3{
+    min-height:210px;
+}
+.precio{
+    margin-top: 15%;
+  
+    padding: 3%;
+    background:#4484CE;
+    border-radius: 15px;
+}
+.card{
+    border: solid 2px #4484CE;
+}
+.porta {
+    height: 280px;
+}
+.porta  img{
+    min-height: 180px;
+}
+.contacto{
+    border: solid 2px #4484CE;
+    
+}
+@media screen and (max-width: 575px) {
+  .paquetes{
+    margin-left: 1%;
+     
+}
+    #ska2 {
+	display: none;
+}
+    .logo-header{
+        width: 90%;
+    }
+}
+.footer{
+	padding: 0;
+	margin: 0;
+	background: rgba(42,40,40,1.00);
+    bottom:0;
+    left:0;
+    width:100%;
+    height:auto;
+    text-align:center;
+	/*position: sticky;*/
+	
+}
+.skafooter ul li{
+	list-style: none;
+	width: 20%;
+	box-sizing: border-box;
+}
+.skafooter ul li a{
+	color: #fff;
+	font-size: 30px;
+	margin: 10px;
+	display: inline-block;
+}
+.skafooter ul{
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;	
+	text-align: center;
+	width: 100%;
+	display: flex;
+	}
+.skafooter p{
+	color: #fff;
+	font-size: 15px;
+	margin: 10px;
+	display: inline-block;
+	text-align: center;
+}
+.skafooter{
+	margin: 0;
+	padding: 0;
+}
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+textarea{
+    width: 100%;
+    min-height: 200px;
+}
+.headers {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}

@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.tlefonos {
+    width: 100%;
+    height: 40px;
+    background: #4484CE;
+}
+.navmkt {
+    font-family: 'Source Sans Pro', sans-serif;
+    background: rgb(255, 255, 255);
+    font-size: 18px;
+    border: 2px solid;
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 0px;
+    border-bottom-color: rgb(255, 123, 95);
+}
+.navmkt li a {
+    color: black;
+    opacity: 0.9;
+    font-weight: 200;
+}
+.navmkt li a:hover {
+    transition: .4s linear;
+    font-weight: bold;
+    color: rgb(255, 123, 95);
+}
+.numeros {
+    display: flex;
+    justify-content: flex-end;
+
+}
+.items-tel {
+	list-style-type: none;
+}
+.items-tel a {    
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+}
+.navbar-toggler-icon {
+	
+}
+.imagen-header {
+	    display: -ms-flexbox;
+    -ms-flex-pack: center;
+    -ms-flex-align: center;
+    padding: 8em 0 6em 0;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    background-image: url(../img/header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: 0;
+    min-height: 100vh;
+    height: 100vh !important;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    
+}
+.logo-header {
+	width: 40%;
+    margin-top: -20%;
+}
+.imagen-header {
+	
+}
+.info-home-genral{
+    margin-top: 5%; 
+}
+.separcion{
+background-color:rgb(255, 123, 95); 
+}
+.info-home {
+    
+}
+.info-home h2{
+   margin-left: 5%;
+}
+.info-home p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    margin: 5%;
+    
+}
+.info-home ul,li{
+	font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    margin-left: 5%;
+}
+.info-home-imagen{
+    align-content: flex-end;
+    margin-top: 5%
+}
+.imagen-grafica{    
+    width: 100%;
+}
+.titulo-servicios{
+    text-align: center;
+    font-size: 60px;
+}
+.img-redes-sociales {
+	width: 100%;
+}

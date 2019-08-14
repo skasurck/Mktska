@@ -1,0 +1,475 @@
+/*
+
+Theme Name: Mktska
+
+Author: Irving GabrielRangel Paredes
+
+Author URI: https://www.Mktska.com.mx
+
+Description: Pagina de diseño web y Marketing digital
+
+Version: 0.1
+
+License: copyright
+
+Text Domain: Mktska
+
+*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/*stylos Generales*/
+body {
+    margin:0;
+    padding:0;
+  }
+/*header*/
+/*header telefono*/
+.heder-telefono{
+    height: 46px;
+    width: 100%;
+    border-bottom: 5px solid #4880be;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10%;
+    }
+.link-telefono{
+    align-self: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;  
+    color: #4880be 
+}
+
+/*header navbar*/
+.heder-navbar{
+    height: 90px; 
+    border-bottom: 5px solid #4880be;
+}
+.contenedor-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.nav-item{
+    padding-left: 15%;
+}
+.nav-item:last-child {
+    padding-right: 0%;
+}
+.nav-link{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;  
+}
+/*header navbar logo*/
+.contenedor-logo{
+    display: flex;
+    align-items: center; 
+    justify-content: flex-end;      
+}
+.img-logo{   
+    width: 67%;
+}
+/*Media nav*/
+@media (max-width: 600px) {
+    .img-logo{   
+        margin-top: 10%;
+        width: 160%;
+    }  
+}
+/*Fin de header*/
+/*------------------------------------------------------------------------------------------------------------*/
+/*Contenido*/
+.slider-home{
+    margin-top: 2%;
+}
+.contenedor-animacion{
+    background-color:rgba(255, 255, 255, 1.00); 
+    width:1600px;
+    height:400px
+}
+/*Texto Slider*/
+.slider-home{
+    margin-bottom: 50px;
+}
+.carousel-caption{
+    background-color: #4880be;
+    left: 2%;
+    top: 20%;
+    width: 40%;
+    height: 20%;
+    padding: 1%;
+}
+.texto-slider1 h1{    
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.5rem;
+    text-align: left; 
+}
+.texto-slider1 p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.3rem;
+    text-align: left
+}
+/*Medias slider*/
+@media (max-width: 600px) {
+    .slider-home{
+        margin-top: 7%;
+        margin-left: -10%;
+        height: 100px;
+    }   
+}
+/*Texto info*/
+/*Contenedor*/
+.cuadro-info{
+    background-color: #4880be;
+    width: 100%;
+    height: auto;
+    padding: 2%;
+}
+/*h1 text info*/
+.titulo-info h1{
+    margin-top: 3%;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+}
+/*Tarjetas info*/
+.tarjetas-info{
+    margin-top: 4%;
+    margin-left: 3%;
+}
+.tarjetas-info h2{
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+    font-size: 27px;
+    color: #fff;
+}
+.icono-tarjetas{
+    font-size: 40px;
+    text-align: left;
+}
+.primer-texto-tarjetas{
+    margin-top: 10%;
+}
+.texto-tarjetas{
+    font-size: 19px;
+    color: #fff;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+.boton-info{
+    margin-top: 1.5%;
+}
+.btn-tarjeta-info{
+    color: #4880be !important;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+.btn-tarjeta-info:hover{
+    background-color: grey;
+    color: #fff !important;  
+}
+@media (max-width: 600px) {
+    .titulo-info h1{
+        text-align: center;
+        font-size: 22px;
+    }
+    .tarjetas-info h2{
+        text-align: center;
+        font-size: 22px;
+    }
+    .btn-tarjeta-info{
+        font-size: 20px;    
+    }
+    .btn-tarjeta-info:hover{
+        background-color: grey;
+        color: #fff !important;  
+    }
+    .texto-tarjetas{
+        font-size: 17px;
+        color: #fff;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+    }
+}
+/*Cuadro info 2*/
+.cuadro-info-2{
+    margin: 3%;
+    padding: 2%;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+}
+.titulo-info-2{
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color: #4880be;
+}
+.texto-info-2{
+    margin-top: 5%;
+    font-size: 30px;
+    color: #4880be;
+    font-family: 'Roboto', sans-serif;
+}
+.btn-info-2{
+    margin-top: 5%;
+    background-color: #4880be;
+    color: #fff !important;
+    font-size: 30px;
+}
+.btn-info-2:hover{
+    background-color: grey;
+}
+.img-info-2{
+    width: 100%;
+    height: auto;
+}
+@media (max-width: 600px) {
+    .titulo-info-2{
+        font-size: 35px;
+        text-align: center;
+    }
+    .texto-info-2{
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .btn-info-2{
+        background-color: #4880be;
+        font-size: 20px;
+    }
+    .img-info-2{
+        width: 190%;
+        height: auto;
+    }     
+}
+/*Banner inicio*/
+.baner{
+    background-color: #4880be;
+    width: 100%;
+    padding: 2%;
+    height: auto;
+}
+.baner h1{
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+@media (max-width: 600px) {
+    .baner h1{
+        font-size: 1.8rem;
+        font-weight: normal;
+        font-family: 'Oswald', sans-serif;
+        color: #fff;
+        text-align: center;
+    }   
+}
+/*Cuadro clientes y cetificacos*/
+.cuadro-clientes{
+    margin: 2%;
+    padding: 2%;
+    width: 100%;
+    height: auto;
+}
+/*Clientes*/
+.titulos-clientes h2{
+    font-size: 3.1rem;
+    font-weight: 500;
+    color: #4880be;
+    font-family: 'Oswald', sans-serif;
+}
+.img-clientes{
+    margin-top: 5%;
+}
+.logo-bluecleaner{  
+    width: 90%;
+    height: auto;
+}
+.logo-canalava{
+    width: 70%;
+    height: auto;
+}
+.logo-estours{
+    width: 50%;
+    height: auto;
+}
+.logo-cuarto-lavado{
+    width: 100%;
+    height: auto;
+}
+.logo-armored{
+    width: 100%;
+    height: auto;
+}
+@media (max-width: 600px) {
+
+    .logo-bluecleaner{
+        margin-top: 5%;  
+        width: 50%;
+        height: auto;
+    }
+    .logo-canalava{
+        margin-top: 5%;
+        width: 30%;
+        height: auto;
+    }
+    .logo-estours{
+        margin-top: 5%;
+        width: 20%;
+        height: auto;
+    }
+    .logo-cuarto-lavado{
+        margin-top: 5%;
+        width: 50%;
+        height: auto;
+    }
+    .logo-armored{
+        margin-top: 5%;
+        width: 50%;
+        height: auto;
+    }
+    
+}
+/*Certificados*/
+.titulos-clientes-2 h2{
+    margin-top: 40%;
+    font-size: 3.1rem;
+    font-weight: 500;
+    color: #4880be;
+    font-family: 'Oswald', sans-serif;
+}
+.logo-analitics{  
+    width: 90%;
+    height: auto;
+}
+.logo-ads{
+    width: 30%;
+    height: auto;
+}
+.logo-platzi{
+    width: 80%;
+    height: auto;
+}
+.logo-hubspot{
+    width: 80%;
+    height: auto;
+}
+.logo-face{
+    width: 80%;
+    height: auto;
+}
+@media (max-width: 600px) {
+    .titulos-clientes-2 h2{
+        margin-top: 10%;
+        font-size: 3.1rem;
+        font-weight: 500;
+        color: #4880be;
+        font-family: 'Oswald', sans-serif;
+    }
+    .logo-analitics{ 
+        margin: 2%; 
+        width: 50%;
+        height: auto;
+    }
+    .logo-ads{
+        margin-top: 8%; 
+        width: 15%;
+        height: auto;
+    }
+    .logo-platzi{
+        margin: 2%; 
+        width: 50%;
+        height: auto;
+    }
+    .logo-hubspot{
+        margin: 2%; 
+        width: 40%;
+        height: auto;
+    }
+    .logo-face{
+        margin-top: 5%; 
+        width: 30%;
+        height: auto;
+    }
+  }
+/*footer*/
+footer{
+ background-color: slategray;
+ padding: 2%;
+}
+.footer-cont h2{
+    color: #fff;
+    font-size: 1.8rem;
+    font-family: 'Oswald', sans-serif;
+}
+.logo-footer{
+    width: 40%;
+    height: auto;
+}
+.lista-footer{
+    list-style:none;
+    
+}
+.list-group{
+    
+}
+.lista-footer li{
+    background-color: slategray !important;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.logos-redes-footer{
+    font-size: 3rem;
+}
+.fa-facebook-square{
+    color: #3b5998
+}
+.fa-instagram{
+    color: #2A5B83
+}
+.fa-linkedin{
+   color:  #0274B3
+}
+.fa-whatsapp-square{
+    color: #25d366;
+}
+/* PAGES */	
+h1.entry-title {
+    margin: 30px 0;
+}
+
+.entry-content {
+	margin-bottom: 80px;
+}
+
+.entry-content h2,
+.entry-content h3,
+.entry-content h4 {
+	margin: 40px 0 20px;
+}
+
+
+/* Helpers */
+.mar-top-80 {
+	margin-top: 80px;
+}
+
+/* WordPress classes */
+.alignright {
+	float: right;
+	margin: 20px 0 20px 20px;
+}
+
+.alignleft {
+	float: right;
+	margin: 20px 20px 20px 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
