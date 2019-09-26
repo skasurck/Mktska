@@ -2,24 +2,22 @@ $(document).ready(function(){
     //código a ejecutar cuando el DOM está listo para recibir instrucciones.
     $('#quehacemos').waypoint(function(direction) {
 		quehacemos_bounce(this.element, direction); //when using waypoint, this refers to the waypoint object
-    },{offset:'50%'});
+    },{offset:'55%'});
 
     $('#tarjetaInicioDiseño').waypoint(function(direction) {
 		tarjetaInicioDiseño(this.element, direction); //when using waypoint, this refers to the waypoint object
-    },{offset:'50%'});
+    },{offset:'55%'});
     
     
 	$('#tarjetaInicioMDigital').waypoint(function(direction) {
 		tarjetaInicioMDigital(this.element, direction); //when using waypoint, this refers to the waypoint object
-    },{offset:'50%'});
+    },{offset:'55%'});
     
-    $('#productosDecorativos').waypoint(function(direction) {
-		productosDecorativos_fadeInLeft(this.element, direction); //when using waypoint, this refers to the waypoint object
-    },{offset:'84%'});
+    
     
     $('#tarjetaInicioPosicionamiento').waypoint(function(direction) {
 		tarjetaInicioPosicionamiento(this.element, direction);
-	},{offset:'49%'});
+	},{offset:'55%'});
 
     function quehacemos_bounce(target, direction){
         if(direction === "down"){
@@ -31,6 +29,10 @@ $(document).ready(function(){
         }, 500);
         }
     }
+    
+    $('#imgsomos').waypoint(function(direction) {
+		imgsomos(this.element, direction); //when using waypoint, this refers to the waypoint object
+    },{offset:'55%'});
 
  function tarjetaInicioDiseño(target, direction){
     if(direction === "down"){
@@ -39,7 +41,7 @@ $(document).ready(function(){
         setTimeout(function(){
         $(target).removeClass("animated fadeInLeft");
         $(target).removeClass("hidden");
-    }, 1000);
+    }, 2000);
     }
 }
 
@@ -50,20 +52,10 @@ function tarjetaInicioMDigital(target, direction){
         setTimeout(function(){
         $(target).removeClass("animated fadeInRight");
         $(target).removeClass("hidden");
-    }, 3000);
+    }, 2000);
     }
 }
 
-function productosDecorativos_fadeInLeft(target, direction){
-    if(direction === "down"){
-        $(target).addClass("animated fadeInLeft");
-  
-        setTimeout(function(){
-        $(target).removeClass("animated fadeInLeft");
-        $(target).removeClass("hidden");
-    }, 3000);
-    }
-}
 
 function tarjetaInicioPosicionamiento(target, direction){
     if(direction === "down"){
@@ -71,7 +63,17 @@ function tarjetaInicioPosicionamiento(target, direction){
         $(target).addClass("animated zoomIn");
         setTimeout(function(){
             $(target).removeClass("animated zoomIn");
-    }, 3000);
+    }, 2000);
+    }
+}
+function imgsomos(target, direction){
+    if(direction === "down"){
+        $(target).addClass("animated fadeInRight");
+  
+        setTimeout(function(){
+        $(target).removeClass("animated fadeInRight");
+        $(target).removeClass("hidden");
+    }, 1000);
     }
 }
 });
